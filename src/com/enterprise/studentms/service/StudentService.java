@@ -33,4 +33,10 @@ public class StudentService {
     public boolean deleteStudent(int id) {
         return repository.deleteStudent(id);
     }
+
+
+    public boolean updateStudentMarks(int id, double marks) {
+        return repository.updateStudentMarks(id, marks);
+    }
+
 }
